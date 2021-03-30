@@ -10,7 +10,7 @@ def check():
     for i in range(len(lines)-1):
         temp = list()
         len_lines = len(temp_list)
-        print(len_lines)
+        #print(len_lines)
         while len_lines > 1:
             if (sorted(lines[i]) == sorted(temp_list[len_lines-1])):
                 temp.append(temp_list[len_lines-1])
